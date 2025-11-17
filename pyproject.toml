@@ -1,9 +1,13 @@
 [project]
 name = "mcp-remote-server"
 version = "0.1.0"
-description = "Add your description here"
+description = "My remote MCP server"
 readme = "README.md"
 requires-python = ">=3.11"
 dependencies = [
     "fastmcp>=2.13.1",
 ]
+
+[project.scripts]
+mcp-remote-server = "main:app"
+
